@@ -1,0 +1,22 @@
+.food-item-card {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid gray;
+  margin: 5px;
+}
+
+.food-item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.food-item-image-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.food-item-calories-container {
+  margin-right: 15vw;
+  color: orange;
+}
